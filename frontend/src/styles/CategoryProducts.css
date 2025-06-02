@@ -1,0 +1,26 @@
+.category-products-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #232323;
+  letter-spacing: 0.01em;
+}
+
+.category-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.category-products-message {
+  color: #1a7f37;
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.category-products-loading {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 10px;
+}

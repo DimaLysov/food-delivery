@@ -1,0 +1,16 @@
+/* Минималистичный стиль для страницы Home (категории) */
+.home-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  margin-top: 18px;
+}
+
+.home-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #232323;
+  letter-spacing: 0.01em;
+}
