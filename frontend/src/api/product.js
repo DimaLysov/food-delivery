@@ -8,8 +8,8 @@ export const getProducts = async () => {
     return await response.json();
   };
 
-export const getProductsCategory = async (id) => {
-    const response = await fetch(`${BASE_URL}/product/by-category/${id}/`);
+export const getProductsCategory = async (category_id) => {
+    const response = await fetch(`${BASE_URL}/product/by-category/${category_id}/`);
     if (!response.ok) {
       throw new Error('Ошибка при загрузке данных продуктов');
     }
